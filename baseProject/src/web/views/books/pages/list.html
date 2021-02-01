@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<!--
+ * @Author: sheng.wang
+ * @Date: 2021-01-21 19:57:28
+ * @LastEditTime: 2021-01-21 23:05:17
+ * @LastEditors: sheng.wang
+ * @Description: 
+ * @FilePath: /SSR/baseProject/src/web/views/books/pages/list.html
+-->
+{% extends '../layout/index.html' %}
+
+{% block title %} 图书列表页 {% endblock %}
+{% block head %}
+<!-- injectcss -->
+{% endblock  %}
+<div>
+	{% block content %}
+		{% include ../../../components/banner.html }
+	{% endblock  %}
+</div>
+{% endblock  %}
+
+{% block scripts %}
+<!-- injectjs -->
+{% endblock  %}
+
+</body>
+</html>
